@@ -52,7 +52,7 @@ def rawgit():
                     new_data = row.text.replace("\n\n", "")
                     data.append(new_data)
             holyshit = ''.join(data).replace("\n\n", "\n")
-            print(holyshit)
+            #print(holyshit)
             return render_template("response", data=''.join(holyshit))
         except Exception as e:
             return e
