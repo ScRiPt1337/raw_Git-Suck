@@ -9,6 +9,9 @@ except:
     os.system("python3 -m pip install Flask")
     os.system("python3 -m pip install bs4")
     os.system("python3 -m pip install requests")
+    import requests
+    from bs4 import BeautifulSoup
+    from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
