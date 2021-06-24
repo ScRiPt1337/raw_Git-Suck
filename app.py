@@ -2,6 +2,7 @@ try:
     import requests
     from bs4 import BeautifulSoup
     from flask import Flask, render_template, request
+    import os
 except:
     import os
     os.system("sudo apt-get install python3-pip")
@@ -61,4 +62,4 @@ def rawgit():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(os.getenv('PORT'))
