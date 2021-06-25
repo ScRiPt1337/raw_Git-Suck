@@ -1,5 +1,5 @@
 # raw_Git-Suck
 Get latest changes from raw.githubusercontent.com bypass cache
 
-> Website : http://rawgitsuck.tk
+> Website : https://rawgitsuck.herokuapp.com/
 
